@@ -1,0 +1,84 @@
+@media (min-width: 992px) {
+    :root {
+        --header-height: 80px;
+    }
+
+    .nav a {
+        font-size: 2rem;
+        padding: 0 40px;
+    }
+
+    .banner-heading {
+        font-size: 6rem;
+    }
+    .banner-des {
+        font-size: 4rem;
+    }
+
+    #introduce {
+        padding-top: 60px;
+    }
+
+    .introduce-heading {
+        font-size: 4rem;
+    }
+    
+    .introduce-des {
+        font-size: 1.6rem;
+        line-height: 1.6;
+    }
+
+    .places-heading {
+        font-size: 4rem;
+        padding: 50px 0 20px 30px;
+    }
+
+    #places a {
+        font-size: 2.4rem;
+    }
+
+} 
+
+@media (min-width: 768px) and (max-width: 991.9px) {
+    .nav a {
+        font-size: 1.6rem;
+        padding: 0 30px;
+    }
+
+    .banner-heading {
+        font-size: 4rem;
+    }
+    .banner-des {
+        font-size: 2rem;
+    }
+
+    #introduce {
+        padding-top: 60px;
+    }
+
+    .introduce-heading {
+        font-size: 4rem;
+    }
+    
+    .introduce-des {
+        font-size: 1.6rem;
+        line-height: 1.6;
+    }
+
+    .places-heading {
+        font-size: 4rem;
+        padding: 50px 0 20px 30px;
+    }
+
+    #places a {
+        font-size: 2.4rem;
+    }
+
+}
+
+@media (max-width: 355px) {
+    .sub-nav a {
+        font-size: 1rem;
+        padding: 0 6px;
+    }
+}
